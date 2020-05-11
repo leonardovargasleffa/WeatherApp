@@ -8,9 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		288D376ADAEC1BF234B013EF /* Pods_wheatherapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14C3FD0E87425D98EED63E02 /* Pods_wheatherapp.framework */; };
+		BA0ED2DA2469A8EB0059BFFA /* NearbyCitiesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0ED2D92469A8EB0059BFFA /* NearbyCitiesTableViewController.swift */; };
+		BA0ED2DD2469AA320059BFFA /* CityTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA0ED2DC2469AA320059BFFA /* CityTableViewCell.swift */; };
 		BA9AA9A02465E5B5005AC41A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA99F2465E5B5005AC41A /* AppDelegate.swift */; };
-		BA9AA9A42465E5B5005AC41A /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9A32465E5B5005AC41A /* FirstViewController.swift */; };
-		BA9AA9A62465E5B5005AC41A /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9A52465E5B5005AC41A /* SecondViewController.swift */; };
+		BA9AA9A42465E5B5005AC41A /* MyCityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9A32465E5B5005AC41A /* MyCityViewController.swift */; };
 		BA9AA9A92465E5B5005AC41A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9AA9A72465E5B5005AC41A /* Main.storyboard */; };
 		BA9AA9AB2465E5B6005AC41A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA9AA9AA2465E5B6005AC41A /* Assets.xcassets */; };
 		BA9AA9AE2465E5B6005AC41A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA9AA9AC2465E5B6005AC41A /* LaunchScreen.storyboard */; };
@@ -20,7 +21,6 @@
 		BA9AA9C02465E958005AC41A /* Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9BF2465E958005AC41A /* Main.swift */; };
 		BA9AA9C22465E968005AC41A /* Weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9C12465E968005AC41A /* Weather.swift */; };
 		BA9AA9C42465EB27005AC41A /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9C32465EB27005AC41A /* WebService.swift */; };
-		BA9AA9C62465EF08005AC41A /* CustomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9C52465EF08005AC41A /* CustomViewController.swift */; };
 		BA9AA9C82465F66A005AC41A /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA9AA9C72465F66A005AC41A /* CoreLocation.framework */; };
 		BA9AA9CE2465F9E5005AC41A /* WSReturn.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA9AA9CD2465F9E5005AC41A /* WSReturn.swift */; };
 /* End PBXBuildFile section */
@@ -29,10 +29,11 @@
 		14C3FD0E87425D98EED63E02 /* Pods_wheatherapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_wheatherapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5467C5C5010F2865CADCE7EC /* Pods-wheatherapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheatherapp.release.xcconfig"; path = "Target Support Files/Pods-wheatherapp/Pods-wheatherapp.release.xcconfig"; sourceTree = "<group>"; };
 		65CBACD3048964E74BB0044E /* Pods-wheatherapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-wheatherapp.debug.xcconfig"; path = "Target Support Files/Pods-wheatherapp/Pods-wheatherapp.debug.xcconfig"; sourceTree = "<group>"; };
+		BA0ED2D92469A8EB0059BFFA /* NearbyCitiesTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NearbyCitiesTableViewController.swift; sourceTree = "<group>"; };
+		BA0ED2DC2469AA320059BFFA /* CityTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CityTableViewCell.swift; sourceTree = "<group>"; };
 		BA9AA99C2465E5B5005AC41A /* wheatherapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wheatherapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA9AA99F2465E5B5005AC41A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		BA9AA9A32465E5B5005AC41A /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		BA9AA9A52465E5B5005AC41A /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		BA9AA9A32465E5B5005AC41A /* MyCityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCityViewController.swift; sourceTree = "<group>"; };
 		BA9AA9A82465E5B5005AC41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BA9AA9AA2465E5B6005AC41A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BA9AA9AD2465E5B6005AC41A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,7 +44,6 @@
 		BA9AA9BF2465E958005AC41A /* Main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Main.swift; sourceTree = "<group>"; };
 		BA9AA9C12465E968005AC41A /* Weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Weather.swift; sourceTree = "<group>"; };
 		BA9AA9C32465EB27005AC41A /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
-		BA9AA9C52465EF08005AC41A /* CustomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomViewController.swift; sourceTree = "<group>"; };
 		BA9AA9C72465F66A005AC41A /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		BA9AA9CD2465F9E5005AC41A /* WSReturn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WSReturn.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -77,6 +77,14 @@
 				5467C5C5010F2865CADCE7EC /* Pods-wheatherapp.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		BA0ED2DB2469AA230059BFFA /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				BA0ED2DC2469AA320059BFFA /* CityTableViewCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 		BA9AA9932465E5B5005AC41A = {
@@ -135,8 +143,9 @@
 		BA9AA9B72465E79D005AC41A /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				BA9AA9A32465E5B5005AC41A /* FirstViewController.swift */,
-				BA9AA9A52465E5B5005AC41A /* SecondViewController.swift */,
+				BA0ED2DB2469AA230059BFFA /* Cells */,
+				BA9AA9A32465E5B5005AC41A /* MyCityViewController.swift */,
+				BA0ED2D92469A8EB0059BFFA /* NearbyCitiesTableViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -145,7 +154,6 @@
 			isa = PBXGroup;
 			children = (
 				BA9AA9C32465EB27005AC41A /* WebService.swift */,
-				BA9AA9C52465EF08005AC41A /* CustomViewController.swift */,
 				BA9AA9CD2465F9E5005AC41A /* WSReturn.swift */,
 			);
 			path = Custom;
@@ -267,15 +275,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA9AA9BE2465E94B005AC41A /* Coord.swift in Sources */,
-				BA9AA9A62465E5B5005AC41A /* SecondViewController.swift in Sources */,
 				BA9AA9C02465E958005AC41A /* Main.swift in Sources */,
 				BA9AA9CE2465F9E5005AC41A /* WSReturn.swift in Sources */,
-				BA9AA9A42465E5B5005AC41A /* FirstViewController.swift in Sources */,
+				BA9AA9A42465E5B5005AC41A /* MyCityViewController.swift in Sources */,
 				BA9AA9C22465E968005AC41A /* Weather.swift in Sources */,
 				BA9AA9BC2465E922005AC41A /* City.swift in Sources */,
+				BA0ED2DD2469AA320059BFFA /* CityTableViewCell.swift in Sources */,
 				BA9AA9BA2465E8C5005AC41A /* Request.swift in Sources */,
-				BA9AA9C62465EF08005AC41A /* CustomViewController.swift in Sources */,
 				BA9AA9A02465E5B5005AC41A /* AppDelegate.swift in Sources */,
+				BA0ED2DA2469A8EB0059BFFA /* NearbyCitiesTableViewController.swift in Sources */,
 				BA9AA9C42465EB27005AC41A /* WebService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
